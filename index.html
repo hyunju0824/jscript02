@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>프롬프트 함수 - 입력값</h2>
+    <table>
+        <tr>
+            <td>숫자1</td>
+            <td>num1</td>
+        </tr>
+        <tr>
+            <td>이름</td>
+            <td>myname</td> 
+        </tr>
+        <!--변수 이름 정리해두기..-->
+    </table>
+
+    <script>
+    //    var input = prompt("값을 입력하시오"); //전부다 문자로 처리
+        input_num = 123; //숫자
+        input_txt = '김건우';
+        input_logic = true;
+        input_nn = null;
+        //계산하려고 하면 '333' + '666'
+        input_t1=parseInt('333');
+        input_t2=parseInt('666'); 
+        input_check = isNaN('444');
+        //inNaN 문자열이 숫자를 나타내는게 아니다? 
+        //'444' 숫자 형태의 문자 - false
+        //'aaa' 문자 형태의 문자 - true
+        //변수이름 숫자,특수문자로 시작 못함 .. $, _ 는 ㄱㅊ
+        document.write(input_check); //프롬프트 안에 써넣은 값을 출력
+    </script>
+</body>
+</html>
