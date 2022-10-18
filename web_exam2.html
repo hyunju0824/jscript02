@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nemo{
+            width: 200px;
+            height: 200px;
+            background-color: grey;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>버튼 클릭하면 네모박스 배경색 바꾸기</h2>
+    <div class="nemo" id="nemo1">
+
+    </div>
+    <input type="button" value="배경색변경" onclick="change();">
+    
+
+    <script>
+        function change(){
+            document.getElementById("nemo1").style.backgroundColor='red';
+        }
+            
+    </script>
+</body>
+</html>

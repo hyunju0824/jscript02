@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>강아지 정보 출력</h2>
+    <table border="1">
+        <tr>
+            <th>이름</th>
+            <td id="name"></td>
+        </tr>
+
+        <tr>
+            <th>생일</th>
+            <td id="birth"></td>
+        </tr>
+    </table>
+
+    <script>
+        dog_name = '진돌이';
+        dog_birth = '2019년 1월 5일'
+
+        document.getElementById("name").innerText = dog_name
+        document.getElementById("birth").innerText = dog_birth
+    </script>
+
+</body>
+</html>
